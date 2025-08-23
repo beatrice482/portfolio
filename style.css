@@ -15,6 +15,10 @@ body, html {
  /* width: 100%;  */
 }
  
+.down-arrow-image {
+  width: 50px;
+  height: auto; 
+}
 
 
 .title_section h1 {
@@ -22,3 +26,71 @@ body, html {
   margin:0;
 }
 
+.about_section{
+  background-color: lightgray;
+   display: flex; 
+ flex-direction: column; 
+ align-items: center;
+ height: 50vh;
+}
+
+.heading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 80%; 
+  margin: 40px auto; 
+}
+
+.heading span {
+  padding: 0 20px;
+  font-size: 2rem;
+  font-weight: bold;
+  position: relative;
+  white-space: nowrap;
+}
+
+.heading::before,
+.heading::after {
+  content: "";
+  flex: 1;
+  height: 1px;
+  background: #333;
+}
+
+.heading::before {
+  margin-right: 20px;
+}
+
+.heading::after {
+  margin-left: 20px;
+}
+
+
+.projects_section {
+  height: 100vh; 
+  display: flex; 
+ flex-direction: column; 
+ align-items: center;
+}
+
+.coming-soon-image{
+  width: 300px; 
+  height: auto; 
+}
+
+.project_one{
+  display: flex; 
+  justify-content: center; 
+  gap: 200px; 
+  width: 80%; 
+}
+
+.h2{
+    font-size: 3rem; 
+  margin:0;
+}
+
+.project_one_text{
+  justify-content: column;
+}
