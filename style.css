@@ -116,16 +116,24 @@ margin-top: 30px;
 .project_one{
   display: flex; 
   justify-content: center; 
-  gap: 200px; 
-  width: 80%; 
+  width: 60%; 
+  justify-content: space-between;
 }
 
 .project_two{
   display:flex;
   justify-content: center; 
-  gap: 200px; 
-  width: 80%;
   margin-top: 100px;
+  width: 60%; 
+  justify-content: space-between;
+}
+
+.project_three{
+  display:flex;
+  justify-content: center; 
+  margin-top: 100px;
+  width: 60%; 
+  justify-content: space-between;
 }
 
 .h2{
@@ -133,8 +141,12 @@ margin-top: 30px;
   margin:0;
 }
 
-.project_one_text, .project_two_text{
+.project_one_text, .project_two_text, .project_three_text{
   justify-content: column;
+}
+
+.project_three_text, .project_one_text{
+  text-align: right;
 }
 
 .contact_section{
